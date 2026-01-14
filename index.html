@@ -16,12 +16,15 @@
   "imports": {
     "react/": "https://esm.sh/react@^19.2.3/",
     "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-dom/client": "https://esm.sh/react-dom@^19.2.3/client"
   }
 }
 </script>
 </head>
 <body class="bg-slate-900 font-['Inter',sans-serif]">
     <div id="root"></div>
+    <!-- 显式引入入口文件 -->
+    <script type="module" src="index.tsx"></script>
 </body>
 </html>
